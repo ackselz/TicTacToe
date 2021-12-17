@@ -1,0 +1,66 @@
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+body {
+    width: 40em;
+
+    margin: auto auto;
+    padding-top: 4em;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+label {
+    display: block;
+
+    margin: 1em 0;
+
+    text-align: center;
+}
+
+#container {
+    width: max-content;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.25em;
+
+    margin: auto auto;
+}
+
+.cell {
+    height: 5em;
+    width: 5em;
+
+    background-color: gray;
+    
+    text-align: center;
+    line-height: 5em;
+
+    border-radius: 5px;
+}
+
+#message {
+    width: max-content;
+
+    margin: 1em auto;
+    padding: 0.5em 2em;
+
+    font-size: 1.5em;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+.win {
+    background-color: #3CAEA3;
+}
+
+.tie {
+    background-color: #ED553B;
+}
